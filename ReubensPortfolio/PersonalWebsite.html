@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reuben's Website</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+
+</head>
+
+<body>
+
+ <header class="site-header">
+      <div class="container nav">
+        <div class="brand", style="color: white">Reuben Eshokhai</div>
+        <nav class="nav-links" aria-label="Main navigation">
+          <button id="dark-mode-toggle" aria-label="Toggle dark mode" style="color: white" style="width: 40px; height: 40px;">☾𖤓</button>
+          <a href="#socials"  style="color: white">Socials</a>
+          <a href="#projects" style="color: white">Projects</a>
+          <a href="#top"  style="color: white">Back to top</a>
+        </nav>
+      </div>
+    </header>
+
+<main id="top">
+      <section class="hero container">
+        <div class="hero-copy">
+          <h1>Description</h1>
+          <p>
+            This website contains links to my professional social media accounts and a showcase of my projects. I am a university student studying computer science who has created this website to showcase my work and skills.
+          </p>
+        </div>
+      </section>
+
+
+      <section id="socials" class="socials-section container">
+        <h2 class="section-title">Socials</h2>
+        <div class="social-links">
+
+          <a class="social-link" href="https://github.com/Reuben2231" target="_blank" rel="noopener noreferrer">
+            <img src="GITHUBLOGO.png" alt="GitHub" class="social-btn-icon">
+            <span class="social-text">GitHub</span>
+          </a>
+
+          <a class="social-link" href="https://www.linkedin.com/in/reuben-eshokhai-771174358/" target="_blank" rel="noopener noreferrer">
+            <img src="LINKEDINLOGO.webp" alt="LinkedIn" class="social-btn-icon">
+            <span class="social-text">LinkedIn</span>
+          </a>
+
+        </div>
+      </section>
+
+       <section id="projects" class="projects-section container">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-slider">
+          <button id="prev-btn" class="project-arrow" aria-label="Previous project">←</button>
+
+          <a id="project-link"class="project-feature" href="#" target="_blank" rel="noopener noreferrer">
+            <div class="project-visual"></div>
+            <div class="project-content-box">
+              <div class="project-tag">
+                <span id="project-year">Year</span>
+              </div>
+              <h3 id="project-title">Project Name</h3>
+              <p id="project-desc">
+                Project description
+              </p>
+            </div>
+          </a>
+
+          <button id="next-btn"class="project-arrow" aria-label="Next project">→</button>
+        </div>
+
+        
+      </section>
+    <script src="script.js"></script>
+    </main>
+
+</body>
+</html>
